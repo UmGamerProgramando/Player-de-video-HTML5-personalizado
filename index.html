@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Customizado</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery.js"></script>
+</head>
+
+<body>
+    <main id="main">
+        <video id="myvideo">
+            <source src="https://nsrv1.appanimeplus.tk/animes/hello-kiniro-mosaic/01.mp4" type="video/mp4">
+        </video>
+        <nav id="nav">
+            <div id="timer">
+                <input type="range" id="timerInput" min="0" max="1000" step="1" value="0">
+            </div>
+            <div id="play"></div>
+            <div id="sound">
+                <input type="range" id="soundInput" min="0" max="10" step="1" value="5">
+            </div>
+            <div id="timerLive">
+                0:00
+            </div>
+            <div id="screen"></div>
+            <div id="miniScreen"></div>
+            <div id="autoPlay">
+                <span></span>
+                <i></i>
+            </div>
+        </nav>
+    </main>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
